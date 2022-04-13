@@ -822,6 +822,7 @@ module control_mvp
 
 
 
+   /* verilator lint_off UNOPTFLAT */
    logic [C_MANT_FP64+1+4:0]                                      Sqrt_R0,Sqrt_Q0,Q_sqrt0,Q_sqrt_com_0;
    logic [C_MANT_FP64+1+4:0]                                      Sqrt_R1,Sqrt_Q1,Q_sqrt1,Q_sqrt_com_1;
    logic [C_MANT_FP64+1+4:0]                                      Sqrt_R2,Sqrt_Q2,Q_sqrt2,Q_sqrt_com_2;
